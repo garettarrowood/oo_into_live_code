@@ -25,7 +25,6 @@ class Player
   end
 
   def retire
-    binding.pry
     @salary = 0
     @team = nil
   end

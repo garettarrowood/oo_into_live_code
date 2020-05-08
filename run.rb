@@ -2,7 +2,6 @@ require "pry"
 require_relative "lib/team"
 require_relative "lib/player"
 
-
 sixers = Team.new("Sixers", "Philly")
 bulls = Team.new("Bulls", "Chicago")
 celtics = Team.new("Celtics", "Boston")
@@ -25,6 +24,6 @@ idan.sign(celtics, 4_000_000)
 andrew.sign(celtics)
 pat.sign(bulls)
 
-maddie.retire
+binding.pry
 
 1+1
